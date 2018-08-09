@@ -1,0 +1,14 @@
+# ignore big size files
+*.weights
+*.model
+
+# ignore non-source files
+*.pyc
+*.*~
+
+# ignore orignal leetenki's files
+leetenki_org_files/
+
+# ignore other dirctory
+__pycache__/
+old_scripts

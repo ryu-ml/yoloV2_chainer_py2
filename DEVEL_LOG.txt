@@ -1,0 +1,13 @@
+yolov2.pyの以下の部分をpy2ように編集。
+
+
+for i in range(grid_h):
+                for j in range(grid_w):
+                    print("%2d" % (int(conf[batch, :, :, i, j].data.max() * 100)), end=" ")
+                print("     ", end="")
+                for j in range(grid_w):
+                    print("%2d" % (maps[i][j][int(maps[i][j].max(axis=1).argmax())].argmax()), end=" ")
+                print("     ", end="")
+                for j in range(grid_w):
+                    print("%2d" % (maps[i][j][int(maps[i][j].max(axis=1).argmax())].max()*100), end=" ")
+                print()

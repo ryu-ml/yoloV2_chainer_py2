@@ -28,3 +28,4 @@ darknetオリジナルの重みパラメータファイルはこちら：
 
 オリジナルの重みパラメータファイルを読み込んで実行するための手順ページ：
 [YOLOv2の訓練済みモデル実行手順](https://github.com/leetenki/YOLOv2/blob/master/YOLOv2_execute.md) (2018/09/05)
+（手順ページ内のyolo.weightsは、上記でダウンロードしたyolo_no_error.weightsに置き換えてください。）
